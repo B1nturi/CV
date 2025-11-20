@@ -1,115 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> jubayer Likhon - Curriculum Vitae</title>
-    <style>
-        body{
-            width: fit-content;
-            margin: auto;
-            margin-top: 50px;
-            font-family: sans-serif;
-        }
-
-        #photo {
-            height: 200px;
-            width: 200px;
-            border-radius: 250px;
-        }
-
-        .headline {
-            
-            text-transform: uppercase;
-            text-align: center;
-            color: white;
-            background-color: rgb(21, 40, 58);
-            padding: 10px;
-            border-radius: 20px;
-        }
-
-        .logo {
-            height: 30px;
-            width: 30px;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-
-        p {
-            align-items: center;
-            align-content: center;
-        }
-
-        #name {
-            font-size: 50px;
-            margin-bottom: 0%;
-        }
-
-        hr {
-            color: black;
-        }
-    </style>
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div style="width: fit-content; margin-left: 30px; display: inline-block;">
-        <center><img id="photo" src="3.jpg" alt="Image is not available"></center>
-        <h3 class="headline">Contact Me</h3>
-        <p>
-            <img class="logo" src="phone.png" alt="">+880 17653 04668<br>
-            <img class="logo" src="gmail.png" alt="">likhon.929@gmail.com<br>
-            <img class="logo" src="internet.png" alt="">www.jubayerlikhon.me<br>
-            <img class="logo" src="gps.png" alt="">Khilgaon, Dhaka<br>
-        </p>
-        <h3 class="headline">education</h3>
-        <p>
-            <b>SSC</b><br>
-            <b>Raipur L M Pilot Model High School</b><br>
-            2017 - 2018
-        </p>
-        <p>
-            <b>HSC</b><br>
-            <b>Khilgaon Government Colony Higher Secondary School</b><br>
-            2019 - 2020
-        </p>
-        <p>
-            <b>BSc</b><br>
-            <b>East West University</b><br>
-            2021 - 2025
-        </p>
-        <h3 class="headline">Skills</h3>
-        <p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-        </p>
 
+    <div class="container">
+        <h1>Jubayer Likhon</h1>
+        <p class="subtitle">Web Developer • Programmer • Learner</p>
+
+        <div class="cv-preview">
+            <embed src="./Resume of Jubayer Alam Likhon.pdf" type="application/pdf" width="100%" height="500px" />
+        </div>
+
+        <button id="downloadBtn">Download CV</button>
     </div>
 
-    <div style="float: right; margin-left: 20px;">
-        <p id="name"><b>Jubayer Likhon</b></p>
-        <p style="margin-bottom: 50px;">
-            A student with hands on experience in
-            tutoring, <br> digital marketing and leadership programs.
-        </p>
-
-        <p>
-            <h3><b>Work Experience</b></h3>
-            <hr color="black">
-            I have not yet work for any company.
-        </p>
-        <p>
-            <h3><b>Personal Profile and Interests</b></h3>
-            <hr color="black">
-        </p>
-        <p>
-            <h3><b>Reference</b></h3>
-            <hr color="black">
-        </p>
-    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
